@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 export default () => {
   return (
-    <main className={cx("pt-16", "ml-auto", "mr-auto")}>
+    <main className={cx("pt-16", "ml-auto", "mr-auto", "min-h-ios")}>
       <div
         className={cx("relative")}
         style={{

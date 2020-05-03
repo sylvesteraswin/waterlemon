@@ -11,6 +11,9 @@ module.exports = {
       translate: {
         "-1/2": "-50%",
       },
+      minHeight: {
+        ios: "-webkit-fill-available",
+      },
     },
   },
 };
