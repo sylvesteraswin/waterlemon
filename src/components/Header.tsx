@@ -4,6 +4,8 @@ import { Link } from "gatsby";
 
 import { StandardProps } from "../utils/element-types";
 
+import SocialMedia from "../components/SocialMedia";
+
 interface HeaderProps
   extends StandardProps<React.HtmlHTMLAttributes<HTMLDivElement>> {}
 
@@ -28,13 +30,19 @@ const Header: React.FunctionComponent<HeaderProps> = () => {
               "inline-block",
               "font-display",
               "text-white",
-              "font-bold",
-              "text-xs",
-              "uppercase"
+              "text-sm",
+              "border-b-2",
+              "duration-300",
+              "ease-in-out",
+              "transition-colors",
+              "border-solid",
+              "border-transparent",
+              "hover:border-white"
             )}
           >
             Home
           </Link>
+          <SocialMedia className={"ml-4"} />
         </div>
       </div>
     </header>

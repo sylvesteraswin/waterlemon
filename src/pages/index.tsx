@@ -24,7 +24,7 @@ export default () => {
             "px-4"
           )}
         >
-          <div className={cx("py-10")}>
+          <div className={cx("py-20")}>
             <div className={cx("text-white", "font-display", "text-sm")}>
               Architecture
             </div>
@@ -43,7 +43,7 @@ export default () => {
               className={cx(
                 "font-display",
                 "font-bold",
-                "text-sm",
+                "text-base",
                 "text-yellow-600"
               )}
               to="/"

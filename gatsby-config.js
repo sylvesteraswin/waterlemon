@@ -34,6 +34,7 @@ try {
 
 module.exports = {
   siteMetadata: {
+    social: { instagram: "waterlemon", twitter: "waterlemon" },
     meta: {
       keywords: "Memories,Sylvester Aswin,Photography,Berlin,Germany",
       description:
