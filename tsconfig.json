@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "declaration": true,
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "preserveSymlinks": true,
+    "noUnusedLocals": true,
+    "lib": ["esnext.asynciterable", "ESNext", "es2017", "dom"],
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "./@types"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}

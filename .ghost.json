@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://waterlemon.herokuapp.com",
+    "contentApiKey": "7a6072a5bb8a1add6945ba607e"
+  },
+  "production": {
+    "apiUrl": "https://waterlemon.herokuapp.com",
+    "contentApiKey": "7a6072a5bb8a1add6945ba607e"
+  }
+}
